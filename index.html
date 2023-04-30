@@ -1,0 +1,21 @@
+<html>
+<head>
+Ref: 
+https://www.tutorialspoint.com/How-to-create-clickable-areas-in-an-image-in-HTML#:~:text=To%20create%20clickable%20areas%20in%20an%20image%2C%20create%20an%20image,image%2C%20a%20different%20website%20opens.
+
+<head>
+
+
+
+<body>
+      <img src = floorplan.jpg alt = "usemap" usemap = "#lessons"/>
+      <map name = "lessons">
+         <area shape = "poly" coords = "74,0,113,29,98,72,52,72,38,27"
+            href = "/perl/index.htm" alt = "Perl Tutorial" target = "_blank" />
+         <area shape = "rect" coords = "22,83,126,125" alt = "HTML Tutorial"
+            href = "/html/index.htm" target = "_blank" />
+         <area shape = "circle" coords = "73,168,32" alt = "PHP Tutorial"
+            href = "/php/index.htm" target = "_blank" />
+      </map>
+   </body>
+</html>
